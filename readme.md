@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for fcitx5</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,33 +13,27 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. `git clone https://github.com/scotabroad/fcitx5.git`
+2. `mkdir -p ~/.local/share/fcitx5/themes`
+3. `cd fcitx5`
+4. `cp -r rose-pine/ rose-pine-moon/ rose-pine-dawn ~/.local/share/fcitx5/themes`
+5. Edit `~/.config/fcitx5/conf/classicui.conf` and change the theme line.
+
+   Options are: `Theme=rose-pine`, `Theme=rose-pine-moon`, or `Theme=rose-pine-dawn`
+6. Restart fcitx5 with `fcitx5 -rd`
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+**Rosé Pine**
+![Rosé Pine with fcitx5](images/rose-pine.png)
+
+**Rosé Pine Moon**
+![Rosé Pine Moon with fcitx5](images/rose-pine-moon.png)
+
+**Rosé Pine Dawn**
+![Rosé Pine Moon with fcitx5](images/rose-pine-dawn.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [ScotAbroad](https://github.com/scotabroad)
 
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
