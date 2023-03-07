@@ -13,7 +13,7 @@
 
 ## Usage
 
-1. `git clone https://github.com/scotabroad/fcitx5.git`
+1. `git clone https://github.com/rose-pine/fcitx5.git`
 2. `mkdir -p ~/.local/share/fcitx5/themes`
 3. `cd fcitx5`
 4. `cp -r rose-pine/ rose-pine-moon/ rose-pine-dawn/ ~/.local/share/fcitx5/themes`
