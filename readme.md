@@ -25,12 +25,15 @@
 ## Gallery
 
 **Rosé Pine**
+
 ![Rosé Pine with fcitx5](images/rose-pine.png)
 
 **Rosé Pine Moon**
+
 ![Rosé Pine Moon with fcitx5](images/rose-pine-moon.png)
 
 **Rosé Pine Dawn**
+
 ![Rosé Pine Moon with fcitx5](images/rose-pine-dawn.png)
 
 ## Thanks to
