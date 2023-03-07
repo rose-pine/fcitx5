@@ -16,7 +16,7 @@
 1. `git clone https://github.com/scotabroad/fcitx5.git`
 2. `mkdir -p ~/.local/share/fcitx5/themes`
 3. `cd fcitx5`
-4. `cp -r rose-pine/ rose-pine-moon/ rose-pine-dawn ~/.local/share/fcitx5/themes`
+4. `cp -r rose-pine/ rose-pine-moon/ rose-pine-dawn/ ~/.local/share/fcitx5/themes`
 5. Edit `~/.config/fcitx5/conf/classicui.conf` and change the theme line.
 
    Options are: `Theme=rose-pine`, `Theme=rose-pine-moon`, or `Theme=rose-pine-dawn`
